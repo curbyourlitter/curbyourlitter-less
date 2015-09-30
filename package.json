@@ -1,0 +1,19 @@
+{
+  "name": "curbyourlitter-less",
+  "version": "0.1.0",
+  "description": "LESS module Curb Your Litter",
+  "main": "src/styles/curbyourlitter.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/curbyourlitter/curbyourlitter-less.git"
+  },
+  "author": "Eric Brelsford <ebrelsford@gmail.com> (http://ebrelsford.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curbyourlitter/curbyourlitter-less/issues"
+  },
+  "homepage": "https://github.com/curbyourlitter/curbyourlitter-less#readme"
+}
