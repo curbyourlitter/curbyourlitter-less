@@ -1,0 +1,25 @@
+@import "colors";
+
+.radio(@outer-size: 16px; @inner-size: 8px; @outer-color: @blue-light-light; @inner-color: @blue) {
+    background-color: @outer-color;
+    border-radius: 50%;
+    display: inline-block;
+    height: @outer-size;
+    position: relative;
+    width: @outer-size;
+
+    & > span {
+        background-color: @inner-color;
+        border-radius: 50%;
+        display: none;
+        height: @inner-size;
+        left: (@outer-size - @inner-size) / 2;
+        position: relative;
+        top: (@outer-size - @inner-size) / 2;
+        width: @inner-size;
+    }
+
+    &.active > span {
+        display: block;
+    }
+}
