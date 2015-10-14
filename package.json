@@ -1,6 +1,6 @@
 {
   "name": "curbyourlitter-less",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "LESS module Curb Your Litter",
   "main": "src/styles/curbyourlitter.less",
   "scripts": {
