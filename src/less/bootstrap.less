@@ -1,3 +1,5 @@
+@import "colors";
+
 // Bootstrap overrides
 @btn-border-radius-base: 5px;
 @btn-default-bg: @blue;
@@ -14,3 +16,12 @@
 @navbar-default-color: @blue;
 @navbar-default-link-color: @blue;
 @navbar-margin-bottom: 0;
+
+.form-control {
+    box-shadow: none;
+
+    &:focus {
+        border-color: @blue;
+        box-shadow: none;
+    }
+}
