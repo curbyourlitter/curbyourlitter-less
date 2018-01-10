@@ -1,0 +1,55 @@
+@import "icons";
+@import "mixins";
+@import "variables";
+
+
+.installedcan-list-item {
+    background-color: @green-transparent;
+    color: @green;
+
+    &:hover,
+    &.hovered-on-map {
+        background-color: @green-light;
+    }
+
+    &-icon {
+        .icon('new-bin', 30px);
+        margin: 0 auto;
+
+        &-column {
+            padding: 0;
+        }
+    }
+
+    &-type {
+        font-size: @list-title-font-size;
+    }
+
+    &-location {
+        font-family: @book-font-family;
+        font-size: @list-sub-font-size;
+        letter-spacing: @list-sub-letter-spacing;
+        text-transform: uppercase;
+    }
+}
+
+.detail-panel-installedcan {
+    h2 {
+        text-transform: capitalize;
+    }
+
+    &-icon {
+        .icon('new-bin', 75px);
+        .detail-panel-icon();
+    }
+
+    &-header {
+        .detail-panel-header();
+    }
+}
+
+.installedcan-popup {
+    .can-icon {
+        .icon('new-bin', 35px);
+    }
+}
